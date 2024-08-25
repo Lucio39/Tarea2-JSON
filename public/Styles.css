@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+
+body {
+    font-family: 'Macondo', sans-serif; 
+    background-image: url('/-the-houses-of-hogwarts.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+h1 {
+    font-family: 'Macondo', sans-serif; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra */
+}
+
+p {
+    font-family: 'Macondo', sans-serif; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
+}
+
+table {
+    width: 100%; 
+    border-collapse: collapse; 
+    background-color: rgba(0,0,0,0.7);
+}
+
+th, td {
+    border: 1px solid gold; 
+    padding: 10px; 
+    text-align: left;
+}
+
+
+th {
+        background: linear-gradient(to right, #F7EA00, #FFD700); /* Degradado de amarillo a dorado */
+        color: black; /* Texto negro para contraste */
+        padding: 10px; /* Espaciado interno */
+        text-align: left; /* Alinear texto a la izquierda */
+    }
+    
+
+
+tr:nth-child(even) {
+    background-color: rgba(255, 215, 0, 0.2); /* Fondo dorado claro para filas pares */
+}
+
+
